@@ -26,20 +26,20 @@
 
 .login-container .login-container-content h2 {
     font-size: 3.125rem;
-    font-weight: 600;;
+    font-weight: 600;
 }
 
 .login-container .login-container-content p:nth-child(2) {
     font-size: 2.1875rem;
     font-weight: 500;
     margin-bottom: 53px;
-} 
+}
 
 .login-container .login-container-content p:nth-child(3),
 .login-container .login-container-content p:nth-child(4) {
     font-size: 1rem;
     font-weight: 400;
-} 
+}
 
 .login-container .login-container-form {
     width: 50vw;
@@ -49,8 +49,7 @@
     align-items: center;
 }
 
-
-.login-container .login-container-form .login-container-form-child form{
+.login-container .login-container-form .login-container-form-child form {
     display: flex;
     flex-direction: column;
     height: 369px;
@@ -64,26 +63,35 @@
     margin-bottom: 28px;
 }
 
-.login-container .login-container-form .login-container-form-child form input:nth-child(1), input:nth-child(2){
+.login-container
+    .login-container-form
+    .login-container-form-child
+    form
+    input:nth-child(1),
+input:nth-child(2) {
     height: 62px;
     border-radius: 10px;
     border: none;
-    background-color: #F0EFFF;
+    background-color: #f0efff;
     padding-left: 15px;
 }
 
-.login-container .login-container-form .login-container-form-child p{
+.login-container .login-container-form .login-container-form-child p {
     text-align: right;
     font-size: 0.8rem;
     font-weight: 300;
 }
 
-.login-container .login-container-form .login-container-form-child form input:nth-child(4) {
+.login-container
+    .login-container-form
+    .login-container-form-child
+    form
+    input:nth-child(4) {
     height: 59px;
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
-    background-color: #4D47C3;
+    background-color: #4d47c3;
     border-radius: 10px;
     margin-bottom: 54px;
 }
@@ -95,13 +103,19 @@
     margin-bottom: 54px;
 }
 
-.login-container .login-container-form .login-container-form-child .login-container-form-child-imgs {
+.login-container
+    .login-container-form
+    .login-container-form-child
+    .login-container-form-child-imgs {
     display: flex;
     justify-content: space-between;
 }
 
-.login-container .login-container-form .login-container-form-child form input:nth-child(4):hover {
+.login-container
+    .login-container-form
+    .login-container-form-child
+    form
+    input:nth-child(4):hover {
     border-color: red;
     color: red;
 }
-
